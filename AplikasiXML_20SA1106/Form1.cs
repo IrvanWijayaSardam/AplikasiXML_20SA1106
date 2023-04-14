@@ -77,9 +77,9 @@ namespace AplikasiXML_20SA1106
 
             DataRow row = ds.Tables["Pengarang"].NewRow();
             row["ID"] = txtId.Text;
-            row["Nama"] = txtId.Text;
-            row["Telepon"] = txtId.Text;
-            row["Email"] = txtId.Text;
+            row["Nama"] = txtNama.Text;
+            row["Telepon"] = txtTelp.Text;
+            row["Email"] = txtEmail.Text;
             ds.Tables["Pengarang"].Rows.Add(row);
 
                 foreach(DataGridViewRow baris in dgv1.Rows)

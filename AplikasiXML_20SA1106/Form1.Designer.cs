@@ -141,6 +141,7 @@
             // 
             // dgv1
             // 
+            this.dgv1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgv1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
